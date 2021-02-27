@@ -40,7 +40,7 @@
                     <finalName>btc_ticker</finalName>
                     <archive>
                         <manifest>
-                            <mainClass>com.azazell.JavaRestChallenge</mainClass>
+                            <mainClass>com.azazell.JavaRestChallenge.Main</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>

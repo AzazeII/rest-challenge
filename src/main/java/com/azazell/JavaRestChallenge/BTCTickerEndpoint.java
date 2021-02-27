@@ -93,6 +93,6 @@ public class BTCTickerEndpoint {
                 .build();
         final HttpClient client = HttpClient.newBuilder().build();
         final HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
-        return parser.parse(response);
+        return parser.parse(response.body());
     }
 }
